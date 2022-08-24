@@ -26,5 +26,5 @@ try {
     }
   });
 } catch (error: any) {
-  console.log('An error occurred while processing: ', error.message);
+  console.error(error);
 }
