@@ -86,7 +86,7 @@ try {
     commentsFileResults[filename].push(
       '',
       '====================================',
-      `FILE FILE: ${filename}`,
+      `FILE NAME: ${filename}`,
       '===================================='
     );
     commentsFileResults[filename].push(

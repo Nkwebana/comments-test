@@ -23,5 +23,5 @@ try {
     });
 }
 catch (error) {
-    console.log('An error occurred while processing: ', error.message);
+    console.error(error);
 }
