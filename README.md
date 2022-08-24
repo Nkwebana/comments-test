@@ -1,6 +1,6 @@
 ### Node version
 
-- Please have at least Node version 16 installed on your machine
+- Please have at least Node version 16 installed on your machine. [Install Node here](https://nodejs.org/en/)
 
 ### How To Run The Project
 
