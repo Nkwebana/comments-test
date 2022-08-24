@@ -119,4 +119,5 @@ try {
   });
 } catch (error: any) {
   console.error('An error occurred while processing comment file: ', error);
+  exit(0);
 }

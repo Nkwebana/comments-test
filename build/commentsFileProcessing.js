@@ -57,7 +57,7 @@ try {
         const commentsInstance = new Comments(splittedCommentsByLine);
         const commentCharactersInstance = new CommentCharacters(splittedCommentsByLine);
         const commentSpamInstance = new CommentSpam(splittedCommentsByLine);
-        commentsFileResults[filename].push('', '====================================', `FILE FILE: ${filename}`, '====================================');
+        commentsFileResults[filename].push('', '====================================', `FILE NAME: ${filename}`, '====================================');
         commentsFileResults[filename].push(`SHORTER_THAN_15: ${handleCommentProcessing(commentCharactersInstance)}`);
         commentsFileResults[filename].push(`MOVER_MENTIONS: ${handleCommentProcessing(commentsInstance, Matrices.Mover)}`);
         commentsFileResults[filename].push(`SHAKER_MENTIONS: ${handleCommentProcessing(commentsInstance, Matrices.Shaker)} `);
@@ -69,4 +69,5 @@ try {
 }
 catch (error) {
     console.error('An error occurred while processing comment file: ', error);
+    exit(0);
 }
