@@ -4,5 +4,5 @@
 
 ### How To Run The Project
 
-- Step 1: Run 'yarn command' (to install dependencies)
-- Step 2: Run 'yarn start' (to start/run the project)
+- Step 1: Run 'yarn command' or 'npm install' (to install dependencies). [Install yarn here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable).
+- Step 2: Run 'yarn start' or 'npm start' (to start/run the project).
